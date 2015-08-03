@@ -1,0 +1,4 @@
+*.bin
+readme.html
+batches.meta.txt
+cifar-100-binary
