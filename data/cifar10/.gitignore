@@ -1,3 +1,7 @@
 *.bin
 readme.html
 batches.meta.txt
+binary/*
+build/*
+lmdb/*
+mean.binaryproto
