@@ -1,4 +1,6 @@
 *.bin
-readme.html
-batches.meta.txt
 cifar-100-binary
+build/**
+lmdb
+binary
+mean.binaryproto
