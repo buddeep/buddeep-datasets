@@ -8,10 +8,10 @@ layer {
     phase: TRAIN
   }
   transform_param {
-    mean_file: "tmp/cifar100/mean.binaryproto"
+    mean_file: "data/cifar100/mean.binaryproto"
   }
   data_param {
-    source: "tmp/cifar100/lmdb/train"
+    source: "data/cifar100/lmdb/train"
     batch_size: 100
     backend: LMDB
   }
@@ -25,10 +25,10 @@ layer {
     phase: TEST
   }
   transform_param {
-    mean_file: "tmp/cifar100/mean.binaryproto"
+    mean_file: "data/cifar100/mean.binaryproto"
   }
   data_param {
-    source: "tmp/cifar100/lmdb/test"
+    source: "data/cifar100/lmdb/test"
     batch_size: 100
     backend: LMDB
   }
