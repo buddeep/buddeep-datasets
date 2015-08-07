@@ -1,7 +1,7 @@
 all:
 	cd scripts/source && $(MAKE)
-	./scripts/build/get_mnist_ubyte.sh
-	./scripts/build/create_from_ubyte.sh
+	./scripts/get_mnist_ubyte.sh
+	./scripts/create_from_ubyte.sh
 
 clean:
 	cd source && $(MAKE) clean

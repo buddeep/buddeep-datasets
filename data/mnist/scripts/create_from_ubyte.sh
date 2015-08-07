@@ -5,7 +5,7 @@
 DIR="$( cd "$(dirname "$0")" ; pwd -P )"
 cd $DIR
 
-BIN_DIR=$DIR/.
+BIN_DIR=$DIR/./build
 UBYTE_DIR=$DIR/../ubyte
 LMDB_DIR=$DIR/../lmdb
 
