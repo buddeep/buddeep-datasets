@@ -7,4 +7,4 @@ fetch_trees:
 	./scripts/fetch_trees.sh
 
 clean:
-	rm *.csv
+	rm -rf trees maps

@@ -13,3 +13,8 @@ training. To fetch the satellite data, you will need to get the download URLs fr
 
     config/2012_MAP_URL.txt
     config/2014_MAP_URL.txt
+
+`make fetch_cached_maps` will fetch the cached maps.
+
+Please do not clean and fetch these maps repeatedly: our servers have bandwidth
+limits.
