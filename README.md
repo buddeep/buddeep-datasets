@@ -57,6 +57,11 @@ Using a text editor, add to your shell profile:
 
     export BUDDEEP_DATASETS_PATH=$HOME/code/buddeep-datasets
 
+Reload your shell profile (for ~/.bash_profile)
+<code>
+source ~/.bash_profile
+</code>
+
 Let's fetch MNIST data.
 
     cd $BUDDEEP_DATASETS_PATH
